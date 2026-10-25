@@ -1,21 +1,27 @@
-# E3: Feature Branches — Portrait Plan
+## Exploration Status
 
-## Starting Point
+### Alternative A — Geometry
 
-The starter project contains a neutral SVG face with two eyes, a nose, and a straight mouth. The Spin button rotates the portrait.
+**Status: Explored**
 
-## Alternative A — Geometry
+Implemented 120 SVG circles as freckles on branch `A`. The repeated shapes add texture to the character while preserving the original facial features and Spin interaction.
 
-I will add 120 small circles to the character's face to create freckles or a textured appearance. This version explores how repeated geometric shapes can create visual details.
+### Alternative B — Image Assets
 
-## Alternative B — Image Assets
+**Status: Explored**
 
-I will use at least two image assets to give the character a different personality, such as a hat and sunglasses. This version explores combining external artwork with SVG shapes.
+Implemented a hat and sunglasses using two separate SVG image assets on branch `B`. This alternative gives the character a different personality while demonstrating how image assets can be incorporated into an SVG portrait.
 
-## Alternative C — Color and Curves
+### Alternative C — Color and Curves
 
-I will add a colorful SVG gradient and replace the straight mouth with a Bézier curve to create a smiling expression. This version explores how colors and curves affect the character's mood.
+**Status: Explored**
 
-## Decision
+Implemented a colorful linear gradient and a curved smile using a quadratic Bézier path on branch `C`. This alternative creates a happier expression through changes to color and geometry.
 
-I will implement and compare all three versions before selecting one to integrate into main.
+## Comparison
+
+- **A:** Adds visual detail using repeated geometric shapes.
+- **B:** Changes the character's personality using image assets.
+- **C:** Changes the character's expression using gradients and curves.
+
+All three alternatives have been implemented and explored independently. The final selection will be recorded after rebasing the chosen branch onto the updated main branch.
