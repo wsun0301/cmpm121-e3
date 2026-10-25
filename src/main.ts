@@ -59,6 +59,28 @@ mouth.setAttribute("stroke-width", "4");
 mouth.setAttribute("stroke-linecap", "round");
 face.append(mouth);
 
+// Alternative B: Add two image assets to the portrait.
+const svgNS = "http://www.w3.org/2000/svg";
+
+const hat = document.createElementNS(svgNS, "image");
+hat.setAttribute("href", new URL("assets/hat.svg", document.baseURI).href);
+hat.setAttribute("x", "30");
+hat.setAttribute("y", "7");
+hat.setAttribute("width", "140");
+hat.setAttribute("height", "60");
+face.append(hat);
+
+const sunglasses = document.createElementNS(svgNS, "image");
+sunglasses.setAttribute(
+  "href",
+  new URL("assets/sunglasses.svg", document.baseURI).href,
+);
+sunglasses.setAttribute("x", "43");
+sunglasses.setAttribute("y", "65");
+sunglasses.setAttribute("width", "114");
+sunglasses.setAttribute("height", "43");
+face.append(sunglasses);
+
 portrait.append(face);
 
 spin.addEventListener("click", () => {

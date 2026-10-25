@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 60">
+  <path d="M25 42 L35 8 Q70 -2 105 8 L115 42 Z" fill="#285b91" stroke="#172d47"
+    stroke-width="3"></path>
+  <rect x="5" y="39" width="130" height="13" rx="6" fill="#173c67"></rect>
+  <text x="70" y="32" text-anchor="middle" font-size="18" font-weight="bold"
+    fill="white">B</text>
+</svg>
