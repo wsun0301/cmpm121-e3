@@ -59,6 +59,27 @@ mouth.setAttribute("stroke-width", "4");
 mouth.setAttribute("stroke-linecap", "round");
 face.append(mouth);
 
+// Alternative A: Add 120 freckles using repeated SVG circles.
+for (let row = 0; row < 10; row++) {
+  for (let col = 0; col < 12; col++) {
+    const freckle = document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "circle",
+    );
+
+    const x = 45 + col * 10;
+    const y = 65 + row * 6;
+
+    freckle.setAttribute("cx", String(x));
+    freckle.setAttribute("cy", String(y));
+    freckle.setAttribute("r", "1.5");
+    freckle.setAttribute("fill", "#b47b50");
+    freckle.setAttribute("opacity", "0.65");
+
+    face.append(freckle);
+  }
+}
+
 portrait.append(face);
 
 spin.addEventListener("click", () => {
