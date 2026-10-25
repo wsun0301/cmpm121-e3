@@ -11,3 +11,4 @@ In your repository, set **Settings → Pages → Source** to **GitHub Actions**.
 ## Credits
 
 Tooling adapted from the course D1 starter, derived from the [S01 starter](https://github.com/ucsc-cmpm-121-f26/s01-starter/tree/8974888efb6537be82e8eb069db139ea885039da). That material has no explicit repository license; no new license is assigned. E3 graphics were staff-authored with authorized OpenAI GPT-6.1 Sol assistance. Dependencies retain their licenses.
+
